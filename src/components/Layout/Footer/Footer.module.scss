@@ -1,0 +1,21 @@
+.footer{
+  height: 963px;
+  width: 100%;
+  position: absolute;
+
+  transform: translateY(-100%);
+  display: flex;
+  background-color: #E2E2E2;
+  align-items: center;
+  margin-left: -10px;
+}
+
+.contents{
+  width: 96%;
+  max-width: 1100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 98%;
+  height: 60px;
+  background-color: #E2E2E2;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.contents{
+  display: flex;
+  width: 96%;
+  max-height: 1100px;
+  height: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation{
+  ul{
+    display: flex;
+    list-style: none;
+
+    li + li{
+      margin-left: 30px;
+    }
+  }
+}
+
