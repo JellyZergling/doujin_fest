@@ -1,20 +1,26 @@
 .header{
   position: fixed;
-  left: 0;
-  top: 0;
-  width: 98%;
+  width: 95vw;
   height: 60px;
-  background-color: #E2E2E2;
-  border-radius: 10px;
-  margin-top: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: -5px;
+
+  border: 3px solid transparent;
+  border-radius: 0px 0px 20px 20px;
+  background-image: linear-gradient(#fff, #fff),linear-gradient(to right, #ffe13c 0%, #f52e7f 100%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .contents{
   display: flex;
-  width: 96%;
+  width: 95%;
   max-height: 1100px;
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
 }
